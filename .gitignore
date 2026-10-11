@@ -1,0 +1,14 @@
+# secrets: any .env variant except the template
+.env
+.env.*
+!.env.example
+# raw chat, Helix cache, tokens, indexes, vectors: never committed
+data/
+*.db
+*.db.tmp
+*.npz
+*.jsonl.tmp
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/

@@ -1,0 +1,7 @@
+# torch CPU wheel: pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+sentence-transformers==6.1.0
+faiss-cpu==1.15.1
+matplotlib==3.11.2
+mcp==2.3.0
+pytest

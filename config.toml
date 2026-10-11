@@ -1,0 +1,10 @@
+# Channels to collect and index. Adding one here needs no code change; restart the collector.
+channels = ["ohnepixel", "jynxzi", "dantes"]
+
+[index]
+window_seconds = 30
+
+[ranking]
+# Chosen before any labels existed. Dev tuning (results/tuning.json) picked 0.0 on the 12-query pilot: the boost
+# hurt on these mostly topical queries. Kept at 0.3 so the eval measures the boost instead of switching it off.
+boost_weight = 0.3

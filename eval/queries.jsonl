@@ -1,0 +1,42 @@
+{"qid": "p01", "query": "someone asking for the name of the music playing", "type": "paraphrase", "channel": "dantes", "source": "dantes:1791674100"}
+{"qid": "p02", "query": "debate over which League champion is the most attractive", "type": "paraphrase", "channel": "dantes", "source": "dantes:1791674580"}
+{"qid": "p03", "query": "is dantes going to teach jynxzi how to play", "type": "paraphrase", "channel": "dantes", "source": "dantes:1791674880"}
+{"qid": "p04", "query": "homeless billionaire would you rather question", "type": "exact", "channel": "dantes", "source": "dantes:1791675270"}
+{"qid": "p05", "query": "burgers emoji spam", "type": "exact", "channel": "dantes", "source": "dantes:1791675330"}
+{"qid": "p06", "query": "chat celebrating a viewer getting unbanned", "type": "event", "channel": "dantes", "source": "dantes:1791676080"}
+{"qid": "p07", "query": "KS accusations, someone stole a kill", "type": "slang", "channel": "dantes", "source": "dantes:1791677280"}
+{"qid": "p08", "query": "chat laughing at a bear pun", "type": "paraphrase", "channel": "dantes", "source": "dantes:1791678390"}
+{"qid": "p09", "query": "locke built zhonyas", "type": "exact", "channel": "dantes", "source": "dantes:1791678810"}
+{"qid": "p10", "query": "the mel incident", "type": "exact", "channel": "dantes", "source": "dantes:1791678900"}
+{"qid": "p11", "query": "team wins a big fight and chat cheers well played", "type": "event", "channel": "dantes", "source": "dantes:1791679350"}
+{"qid": "p12", "query": "nt after losing a fight near baron and dragon", "type": "slang", "channel": "dantes", "source": "dantes:1791679530"}
+{"qid": "p13", "query": "chat calling dantes unc and old", "type": "slang", "channel": "dantes", "source": "dantes:1791679740"}
+{"qid": "p14", "query": "viewer milestone announcement", "type": "event", "channel": "dantes", "source": "dantes:1791679770"}
+{"qid": "p15", "query": "chat roasting a teammate with a terrible kill death score", "type": "event", "channel": "jynxzi", "source": "jynxzi:1791674610"}
+{"qid": "p16", "query": "chat complaining about the map choice", "type": "paraphrase", "channel": "jynxzi", "source": "jynxzi:1791674880"}
+{"qid": "p17", "query": "six seven meme spam", "type": "slang", "channel": "jynxzi", "source": "jynxzi:1791675030"}
+{"qid": "p18", "query": "viewer says chat is moving slowly", "type": "paraphrase", "channel": "jynxzi", "source": "jynxzi:1791675120"}
+{"qid": "p19", "query": "chat thinks the match is scripted", "type": "exact", "channel": "jynxzi", "source": "jynxzi:1791675330"}
+{"qid": "p20", "query": "drum gun", "type": "exact", "channel": "jynxzi", "source": "jynxzi:1791675420"}
+{"qid": "p21", "query": "vape break goon break", "type": "slang", "channel": "jynxzi", "source": "jynxzi:1791675930"}
+{"qid": "p22", "query": "chat talking about fantasy football picks", "type": "paraphrase", "channel": "jynxzi", "source": "jynxzi:1791676050"}
+{"qid": "p23", "query": "team down 0-2 and chat blames jynxzi for dying", "type": "event", "channel": "jynxzi", "source": "jynxzi:1791676920"}
+{"qid": "p24", "query": "huge clip-worthy kill and chat erupts", "type": "event", "channel": "jynxzi", "source": "jynxzi:1791677580"}
+{"qid": "p25", "query": "overheated", "type": "exact", "channel": "jynxzi", "source": "jynxzi:1791678150"}
+{"qid": "p26", "query": "W stream", "type": "slang", "channel": "jynxzi", "source": "jynxzi:1791679590"}
+{"qid": "p27", "query": "viewers asking if the broadcast ended and leaving for another streamer", "type": "paraphrase", "channel": "jynxzi", "source": "jynxzi:1791679620"}
+{"qid": "p28", "query": "KEKWait", "type": "slang", "channel": "jynxzi", "source": "jynxzi:1791680070"}
+{"qid": "p29", "query": "roulette points gamble", "type": "exact", "channel": "ohnepixel", "source": "ohnepixel:1791674910"}
+{"qid": "p30", "query": "viewer complaining about the waiting time between gambles", "type": "paraphrase", "channel": "ohnepixel", "source": "ohnepixel:1791675000"}
+{"qid": "p31", "query": "someone survives russian roulette", "type": "event", "channel": "ohnepixel", "source": "ohnepixel:1791675330"}
+{"qid": "p32", "query": "xqcL", "type": "slang", "channel": "ohnepixel", "source": "ohnepixel:1791675480"}
+{"qid": "p33", "query": "telling a chatter to screenshot it for their profile", "type": "paraphrase", "channel": "ohnepixel", "source": "ohnepixel:1791675510"}
+{"qid": "p34", "query": "xqcGoofy", "type": "slang", "channel": "ohnepixel", "source": "ohnepixel:1791675600"}
+{"qid": "p35", "query": "dice roll command result", "type": "paraphrase", "channel": "ohnepixel", "source": "ohnepixel:1791676710"}
+{"qid": "p36", "query": "streamer social media links posted", "type": "paraphrase", "channel": "ohnepixel", "source": "ohnepixel:1791676800"}
+{"qid": "p37", "query": "sadE", "type": "slang", "channel": "ohnepixel", "source": "ohnepixel:1791677460"}
+{"qid": "p38", "query": "chat speculating about who the third person is", "type": "paraphrase", "channel": "ohnepixel", "source": "ohnepixel:1791678270"}
+{"qid": "p39", "query": "<redacted: chatter name>", "type": "exact", "channel": "ohnepixel", "source": "ohnepixel:1791678300"}
+{"qid": "p40", "query": "he is cooked", "type": "slang", "channel": "ohnepixel", "source": "ohnepixel:1791678930"}
+{"qid": "p41", "query": "someone sharing their aim trainer accuracy score", "type": "paraphrase", "channel": "ohnepixel", "source": "ohnepixel:1791679110"}
+{"qid": "p42", "query": "self promo", "type": "exact", "channel": "ohnepixel", "source": "ohnepixel:1791679440"}

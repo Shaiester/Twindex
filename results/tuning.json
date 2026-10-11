@@ -1,0 +1,45 @@
+{
+ "dev_ndcg@10_by_weight": {
+  "0.0": {
+   "bm25+boost": 0.5794,
+   "dense+boost": 0.6849,
+   "hybrid+boost": 0.7934
+  },
+  "0.1": {
+   "bm25+boost": 0.5633,
+   "dense+boost": 0.6881,
+   "hybrid+boost": 0.7662
+  },
+  "0.2": {
+   "bm25+boost": 0.5155,
+   "dense+boost": 0.6855,
+   "hybrid+boost": 0.7563
+  },
+  "0.3": {
+   "bm25+boost": 0.5282,
+   "dense+boost": 0.6684,
+   "hybrid+boost": 0.716
+  },
+  "0.5": {
+   "bm25+boost": 0.5048,
+   "dense+boost": 0.6688,
+   "hybrid+boost": 0.6945
+  },
+  "0.75": {
+   "bm25+boost": 0.4938,
+   "dense+boost": 0.5963,
+   "hybrid+boost": 0.6182
+  },
+  "1.0": {
+   "bm25+boost": 0.4858,
+   "dense+boost": 0.4909,
+   "hybrid+boost": 0.5633
+  },
+  "1.5": {
+   "bm25+boost": 0.4444,
+   "dense+boost": 0.3187,
+   "hybrid+boost": 0.4165
+  }
+ },
+ "best": 0.0
+}
