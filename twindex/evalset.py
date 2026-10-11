@@ -232,10 +232,16 @@ def freeze():
     (EVAL / "splits.json").write_text(json.dumps(splits, indent=0, sort_keys=True))
     agree = agreement(llm, human)
     (EVAL / "agreement.json").write_text(json.dumps(agree, indent=1))
-    digest = hashlib.sha256(b"".join((EVAL / f).read_bytes() for f in ("queries.jsonl", "qrels.dev.txt", "qrels.test.txt"))).hexdigest()
+    digest = eval_digest()
     _save_meta(frozen_at=datetime.now(timezone.utc).isoformat(timespec="seconds"), sha256=digest)
     print(json.dumps(agree, indent=1))
     print(f"frozen: {Counter(splits.values())}")
+
+
+def eval_digest() -> str:
+    """SHA-256 of queries + qrels with line endings normalized, so a git checkout on another OS still matches."""
+    data = b"".join((EVAL / f).read_bytes() for f in ("queries.jsonl", "qrels.dev.txt", "qrels.test.txt"))
+    return hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
 
 
 def read_qrels(name: str) -> dict[str, dict[str, int]]:
@@ -248,7 +254,7 @@ def read_qrels(name: str) -> dict[str, dict[str, int]]:
 
 def check_frozen():
     meta = _meta()
-    digest = hashlib.sha256(b"".join((EVAL / f).read_bytes() for f in ("queries.jsonl", "qrels.dev.txt", "qrels.test.txt"))).hexdigest()
+    digest = eval_digest()
     if not meta.get("frozen_at") or digest != meta["sha256"]:
         sys.exit("Eval set is not frozen or was modified after freezing.")
 

@@ -3,6 +3,6 @@
  "cutoff_utc": "2026-10-11 00:55:30 UTC",
  "seed": 13,
  "frozen_at": "2026-10-11T02:07:56+00:00",
- "sha256": "54c1ac9a5601ef908b590508a44d636e5fac16ed4abf2b1938dc06a9570fbbf1",
- "note": "sha256 recomputed after redacting chatter name in p39 query text (DESIGN.md #24); labels and qrels unchanged"
+ "sha256": "1608a9dbb2b2cdc9f19ade6a4cb4843d0844d1a0822ecc90e58bbab85f741efd",
+ "note": "sha256 recomputed after redacting chatter name in p39 query text (DESIGN.md #24); labels and qrels unchanged; sha256 now over LF-normalized bytes"
 }
